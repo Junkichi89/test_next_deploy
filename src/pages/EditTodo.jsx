@@ -1,13 +1,13 @@
 import { Box, Flex } from '@chakra-ui/layout'
-import Header from '../src/components/organisms/Header/Header'
+import Header from '/src/components/organisms/Header/Header'
 import React from 'react'
-import { DetailTextarea } from '../src/components/atoms/input/DetailTextarea'
-import Title from '../src/components/atoms/input/Title'
-import BackButton from '../src/components/atoms/button/BackButton'
-import { UpdateButton } from '../src/components/atoms/button/UpdateButton'
-import { CreationTime } from '../src/components/molecules/timeStamp/CreationTime'
-import { UpdateTime } from '../src/components/molecules/timeStamp/UpdateTime'
-import { Headline } from '../src/components/atoms/headline/Headline'
+import { DetailTextarea } from '/src/components/atoms/input/DetailTextarea'
+import Title from '/src/components/atoms/input/Title'
+import BackButton from '/src/components/atoms/button/BackButton'
+import { UpdateButton } from '/src/components/atoms/button/UpdateButton'
+import { CreationTime } from '/src/components/molecules/timeStamp/CreationTime'
+import { UpdateTime } from '/src/components/molecules/timeStamp/UpdateTime'
+import { Headline } from '/src/components/atoms/headline/Headline'
 
 export default function EditTodo() {
   return (

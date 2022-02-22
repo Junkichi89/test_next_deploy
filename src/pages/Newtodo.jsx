@@ -3,16 +3,16 @@ import Router from 'next/router'
 import { useRecoilState } from 'recoil'
 
 import { Stack, Text, Box, Flex, Spacer, HStack } from '@chakra-ui/react'
-import BackButton from '../src/components/atoms/button/BackButton'
-import Markdown from '../src/components/molecules/Markdown'
-import Title from '../src/components/atoms/input/Title'
-import { DraftButton } from '../src/components/atoms/button/DraftButton'
-import { CreateButton } from '../src/components/atoms/button/CreateButton'
-import RadioPriority from '../src/components/atoms/input/RadioPriority'
-import Header from '../src/components/organisms/Header/Header'
+import BackButton from '/src/components/atoms/button/BackButton'
+import Markdown from '/src/components/molecules/Markdown'
+import Title from '/src/components/atoms/input/Title'
+import { DraftButton } from '/src/components/atoms/button/DraftButton'
+import { CreateButton } from '/src/components/atoms/button/CreateButton'
+import RadioPriority from '/src/components/atoms/input/RadioPriority'
+import Header from '/src/components/organisms/Header/Header'
 
-import { todoState } from '../src/hooks/TodoState'
-import { getTime } from '../src/utils/Now'
+import { todoState } from '/src/hooks/TodoState'
+import { getTime } from '/src/utils/Now'
 
 export default function NewTodo() {
   // TodoState.jsで定義したtosos,setTodosを呼び出し

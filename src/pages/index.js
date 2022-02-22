@@ -1,13 +1,13 @@
 import React, { useState } from "react"
 import { Box, Container, Flex, Heading, HStack, Spacer } from '@chakra-ui/react'
-import MainButtons from '../src/components/molecules/MainButtons'
-import Header from '../src/components/organisms/Header/Header'
-import SearchForm from '../src/components/atoms/search/SearchForm'
-import SearchStatus from '../src/components/atoms/search/SearchStatus'
-import { SearchPriority } from '../src/components/atoms/search/SearchPriority'
-import TodoTable from '../src/components/organisms/Todo/TodoTable'
-import { ResetButton } from '../src/components/atoms/button/ResetButton'
-import PageRouting from "../src/components/molecules/PageRouting";
+import MainButtons from '/src/components/molecules/MainButtons'
+import Header from '/src/components/organisms/Header/Header'
+import SearchForm from '/src/components/atoms/search/SearchForm'
+import SearchStatus from '/src/components/atoms/search/SearchStatus'
+import { SearchPriority } from '/src/components/atoms/search/SearchPriority'
+import TodoTable from '/src/components/organisms/Todo/TodoTable'
+import { ResetButton } from '/src/components/atoms/button/ResetButton'
+import PageRouting from "/src/components/molecules/PageRouting";
 
 export default function Home() {
 

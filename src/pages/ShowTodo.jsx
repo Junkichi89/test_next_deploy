@@ -9,10 +9,10 @@ import {
   Text,
   VStack,
 } from '@chakra-ui/react'
-import Header from '../src/components/organisms/Header/Header'
-import DetailCard from '../src/components/organisms/Todo/DetailCard'
-import BackButton from '../src/components/atoms/button/BackButton'
-import CommentButton from '../src/components/atoms/button/CommentButton'
+import Header from '/src/components/organisms/Header/Header'
+import DetailCard from '/src/components/organisms/Todo/DetailCard'
+import BackButton from '/src/components/atoms/button/BackButton'
+import CommentButton from '/src/components/atoms/button/CommentButton'
 
 function index() {
   return (
