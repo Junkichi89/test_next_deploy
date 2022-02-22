@@ -1,0 +1,49 @@
+{
+  "name": "todo_team_2",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx --ignore-path .gitignore",
+    "stylelint": "stylelint \"**/*.scss\""
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^1.1.1",
+    "@chakra-ui/react": "^1.7.4",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@uiw/react-md-editor": "^3.9.4",
+    "chakra-paginator": "^0.7.3",
+    "framer-motion": "^5.5.6",
+    "next": "12.0.7",
+    "next-remove-imports": "^1.0.6",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "recoil": "^0.5.2",
+    "recoil-persist": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.5.0",
+    "eslint-config-next": "12.0.7",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^2.5.1",
+    "sass": "^1.45.0",
+    "serve": "^13.0.2",
+    "stylelint": "^14.1.0",
+    "stylelint-config-recommended-scss": "^5.0.2",
+    "stylelint-order": "^5.0.0",
+    "stylelint-scss": "^4.0.1"
+  },
+  "volta": {
+    "node": "14.17.0",
+    "yarn": "1.22.11",
+    "npm": "7.21.0"
+  }
+}

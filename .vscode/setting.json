@@ -1,0 +1,15 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "$comment": [
+    "###############################",
+    "editorの保存時の設定を制御する",
+    "上記の設定をformatOnSaveをfalse",
+    "fixAll.eslintとfixAll.stylelintをtrueに変更すると",
+    "保存時にeslintとstylelintが実行されるようになる",
+    "###############################"
+  ]
+}
